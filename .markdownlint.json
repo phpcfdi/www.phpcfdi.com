@@ -1,0 +1,13 @@
+{
+    "line-length": false,
+    "no-inline-html": true,
+    "no-multiple-blanks": {
+        "maximum": 2
+    },
+    "ul-indent": {
+        "indent": 4
+    },
+    "no-trailing-punctuation": {
+        "punctuation": ".,;:"
+    }
+}

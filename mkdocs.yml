@@ -1,0 +1,70 @@
+site_name: 'phpCfdi'
+site_description: 'Organización que mantiene librerías de PHP para trabajar con CFDI y SAT'
+site_url: 'https://www.phpcfdi.com/'
+copyright: 'Copyright &copy; 2019 phpCfdi'
+
+nav:
+    - "Información general":
+        - "Organización phpCfdi": 'general/index.md'
+        - "Contacto": '/#contacto'
+        - "Código de conducta": 'general/codigo-de-conducta.md'
+    - "Librerías":
+        - "Librerías de phpCfdi": 'librerias/index.md'
+        - "Listado de librerías": 'librerias/listado-librerias.md'
+        - "CfdiUtils": 'librerias/cfdiutils.md'
+        - "Consumo del Servicio Web del SAT para descarga masiva": 'librerias/sat-ws-descarga-masiva.md'
+        - "XML para cancelación de CFDI": 'librerias/xml-cancelacion.md'
+        - "Consulta de estado de CFDI": 'librerias/sat-estado-cfdi.md'
+        - "Credenciales": 'librerias/credentials.md'
+        - "Expresiones de CFDI": 'librerias/cfdi-expresiones.md'
+        - "Reportar un problema": 'librerias/contribuciones/reportar-problemas.md'
+        - "Herramientas": 'librerias/herramientas.md'
+    - "Proyectos":
+        - "Proyectos de phpCfdi": 'proyectos/index.md'
+    - "SAT":
+        - "Problemas conocidos":
+            - "Contradicciones de CFDI de Pagos": 'sat/problemas-conocidos/contradicciones-pagos.md'
+            - "Descarga de certificados desde el SAT": 'sat/problemas-conocidos/descarga-certificados.md'
+            - "Validación de certificados": 'sat/problemas-conocidos/validacion-certificados.md'
+            - "Múltiples nodos de complemento": 'sat/problemas-conocidos/multiples-complementos.md'
+    - "Blog":
+        - "2019": 'blog/2019.md'
+
+theme:
+    name: 'material'
+    favicon: 'assets/images/logo-contornos-256.png'
+    logo: 'assets/images/logo-contornos-white-256.png'
+    palette:
+        primary: 'Blue Grey'
+        accent: 'Red'
+    highlightjs: true
+    language: 'es'
+    feature: {tabs: true}
+
+markdown_extensions: # https://squidfunk.github.io/mkdocs-material/extensions/admonition/
+    - meta
+    - admonition
+    - codehilite: {guess_lang: false, linenums: false}
+    - toc: {permalink: "&#x1F517;"}
+    - markdown_include.include
+    - pymdownx.caret
+    - pymdownx.tilde
+    - pymdownx.mark
+    - pymdownx.betterem
+    - pymdownx.emoji:
+          emoji_generator: !!python/name:pymdownx.emoji.to_svg
+    - pymdownx.tasklist
+
+plugins:
+    - search
+    - minify: {minify_html: true}
+
+extra:
+    search:
+        language: 'es'
+    social:
+        - {type: 'home', link: 'https://www.phpcfdi.com/'}
+        - {type: 'comments', link: 'https://discord.gg/aFGYXvX'}
+        - {type: 'github', link: 'https://github.com/phpcfdi'}
+        - {type: 'twitter', link: 'https://twitter.com/phpcfdi'}
+        - {type: 'envelope', link: 'mailto:contacto@phpcfdi.com'}
