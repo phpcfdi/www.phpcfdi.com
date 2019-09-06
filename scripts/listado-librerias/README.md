@@ -11,6 +11,6 @@ php create-markdown.php packages.json > ../../docs/librerias/listado-librerias.m
 rm packages.json
 
 # todo en uno
-GH_USERNAME=username GH_PASSWORD=password php search-organization-repositories.php \ |
+GH_USERNAME=username GH_PASSWORD=password php search-organization-repositories.php | \
     php create-markdown.php - > ../../docs/librerias/listado-librerias.md
 ```
