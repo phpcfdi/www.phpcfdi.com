@@ -131,7 +131,7 @@ pero si se cumple `A y B` entonces su existencia está obligada.
 Con la segunda parte. `Para que exista C entonces A y B`, `C` solamente puede existir en los escenarios donde
 se cumpla `A y B` y en ningún otro.
 
-Esto era una insonsistencia, aunque no un problema tangible dado que en ningún lugar se exigía establecer
+Esto era una inconsistencia, aunque no un problema tangible dado que en ningún lugar se exigía establecer
 el atributo de Residencia Fiscal con excepción de la *Guía de llenado del comprobante al que se le incorpore el complemento para comercio exterior*.
 
 Sin embargo, esto cambió en la guía de llenado del complemento de pagos, donde en la página 14 establece:
