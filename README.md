@@ -8,9 +8,10 @@ Este proyecto está hecho para crear el sitio de <https://www.phpcfdi.com/>.
 
 - [`markdownlint`](https://www.npmjs.com/package/markdownlint)
 - [`mkdocs`](https://www.mkdocs.org/)
-- [`mkdocs_material`](https://squidfunk.github.io/mkdocs-material/)
-- [`mkdocs_minify_plugin`](https://github.com/byrnereese/mkdocs-minify-plugin)
-- [`pymdown_extensions`](https://facelessuser.github.io/pymdown-extensions/)
+- [`mkdocs-material`](https://squidfunk.github.io/mkdocs-material/)
+- [`mkdocs-minify-plugin`](https://github.com/byrnereese/mkdocs-minify-plugin)
+- [`pymdown-extensions`](https://facelessuser.github.io/pymdown-extensions/)
+- [`markdown-include`](https://pypi.org/project/markdown-include/)
 
 ## Construcción del sitio
 
