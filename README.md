@@ -24,7 +24,7 @@ mkdocs build --clean --strict
 ## Publicación
 
 ```shell
-rsync -az --force --delete --cvs-exclude --exclude=.idea --exclude-from=.gitignore --progress site/ phpcfdi@phpcfdi.com:static-website
+rsync -az --force --delete --cvs-exclude --progress site/ phpcfdi@phpcfdi.com:static-website
 ```
 
 ## License / Licencia
