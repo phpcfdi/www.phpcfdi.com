@@ -45,7 +45,7 @@ theme:
         accent: 'Red'
     highlightjs: true
     language: 'es'
-    feature: {tabs: true}
+    features: {tabs: true, instant: true}
 
 markdown_extensions: # https://squidfunk.github.io/mkdocs-material/extensions/admonition/
     - meta
@@ -58,7 +58,8 @@ markdown_extensions: # https://squidfunk.github.io/mkdocs-material/extensions/ad
     - pymdownx.mark
     - pymdownx.betterem
     - pymdownx.emoji:
-          emoji_generator: !!python/name:pymdownx.emoji.to_svg
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:pymdownx.emoji.to_svg
     - pymdownx.tasklist
 
 plugins:
@@ -69,8 +70,8 @@ extra:
     search:
         language: 'es'
     social:
-        - {type: 'home', link: 'https://www.phpcfdi.com/'}
-        - {type: 'comments', link: 'https://discord.gg/aFGYXvX'}
-        - {type: 'github', link: 'https://github.com/phpcfdi'}
-        - {type: 'twitter', link: 'https://twitter.com/phpcfdi'}
-        - {type: 'envelope', link: 'mailto:contacto@phpcfdi.com'}
+        - {icon: 'fontawesome/solid/home', link: 'https://www.phpcfdi.com/'}
+        - {icon: 'fontawesome/brands/discord', link: 'https://discord.gg/aFGYXvX'}
+        - {icon: 'fontawesome/brands/github', link: 'https://github.com/phpcfdi'}
+        - {icon: 'fontawesome/brands/twitter', link: 'https://twitter.com/phpcfdi'}
+        - {icon: 'fontawesome/regular/envelope', link: 'mailto:contacto@phpcfdi.com'}
