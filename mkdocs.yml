@@ -19,6 +19,11 @@ nav:
         - "Expresiones de CFDI": 'librerias/cfdi-expresiones.md'
         - "Reportar un problema": 'librerias/contribuciones/reportar-problemas.md'
         - "Herramientas": 'librerias/herramientas.md'
+    - "Recursos":
+        - "Repositorios de recursos": 'recursos/index.md'
+        - "Suscripciones a recursos": 'recursos/suscripciones.md'
+        - "SAT XML": 'recursos/sat-xml.md'
+        - "Catálogos SAT": 'recursos/sat-catalogs.md'
     - "Proyectos":
         - "Proyectos de phpCfdi": 'proyectos/index.md'
     - "SAT":
