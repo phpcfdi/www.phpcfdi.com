@@ -13,6 +13,19 @@
 
 ---
 
+**[`phpcfdi/cfdi-sat-scraper`](https://github.com/phpcfdi/cfdi-sat-scraper/)**
+
+[![release](https://img.shields.io/github/release/phpcfdi/cfdi-sat-scraper)](https://github.com/phpcfdi/cfdi-sat-scraper/releases)
+[![license](https://img.shields.io/github/license/phpcfdi/cfdi-sat-scraper)](https://github.com/phpcfdi/cfdi-sat-scraper/blob/master/LICENSE)
+[![build](https://img.shields.io/travis/phpcfdi/cfdi-sat-scraper/master)](https://travis-ci.org/phpcfdi/cfdi-sat-scraper)
+[![quality](https://img.shields.io/scrutinizer/g/phpcfdi/cfdi-sat-scraper/master)](https://scrutinizer-ci.com/g/phpcfdi/cfdi-sat-scraper/)
+[![coverage](https://img.shields.io/scrutinizer/coverage/g/phpcfdi/cfdi-sat-scraper/master)](https://packagist.org/packages/phpcfdi/cfdi-sat-scraper)
+[![packagist](https://img.shields.io/packagist/dt/phpcfdi/cfdi-sat-scraper)](https://scrutinizer-ci.com/g/phpcfdi/cfdi-sat-scraper/code-structure/master/code-coverage/src/)
+
+> PHP library to make web scraping to the SAT cfdi download page
+
+---
+
 **[`phpcfdi/cfditopdf`](https://github.com/phpcfdi/cfditopdf/)**
 
 [![release](https://img.shields.io/github/release/phpcfdi/cfditopdf)](https://github.com/phpcfdi/cfditopdf/releases)
@@ -49,6 +62,45 @@
 [![packagist](https://img.shields.io/packagist/dt/phpcfdi/finkok)](https://scrutinizer-ci.com/g/phpcfdi/finkok/code-structure/master/code-coverage/src/)
 
 > Librería para conectar con la API de servicios de FINKOK
+
+---
+
+**[`phpcfdi/resources-sat-xml-generator`](https://github.com/phpcfdi/resources-sat-xml-generator/)**
+
+[![release](https://img.shields.io/github/release/phpcfdi/resources-sat-xml-generator)](https://github.com/phpcfdi/resources-sat-xml-generator/releases)
+[![license](https://img.shields.io/github/license/phpcfdi/resources-sat-xml-generator)](https://github.com/phpcfdi/resources-sat-xml-generator/blob/master/LICENSE)
+[![build](https://img.shields.io/travis/phpcfdi/resources-sat-xml-generator/master)](https://travis-ci.org/phpcfdi/resources-sat-xml-generator)
+[![quality](https://img.shields.io/scrutinizer/g/phpcfdi/resources-sat-xml-generator/master)](https://scrutinizer-ci.com/g/phpcfdi/resources-sat-xml-generator/)
+[![coverage](https://img.shields.io/scrutinizer/coverage/g/phpcfdi/resources-sat-xml-generator/master)](https://packagist.org/packages/phpcfdi/resources-sat-xml-generator)
+[![packagist](https://img.shields.io/packagist/dt/phpcfdi/resources-sat-xml-generator)](https://scrutinizer-ci.com/g/phpcfdi/resources-sat-xml-generator/code-structure/master/code-coverage/src/)
+
+> Programa PHP para generar los recursos desde los archivos XSD y XSLT del SAT para CFDI
+
+---
+
+**[`phpcfdi/rfc`](https://github.com/phpcfdi/rfc/)**
+
+[![release](https://img.shields.io/github/release/phpcfdi/rfc)](https://github.com/phpcfdi/rfc/releases)
+[![license](https://img.shields.io/github/license/phpcfdi/rfc)](https://github.com/phpcfdi/rfc/blob/master/LICENSE)
+[![build](https://img.shields.io/travis/phpcfdi/rfc/master)](https://travis-ci.org/phpcfdi/rfc)
+[![quality](https://img.shields.io/scrutinizer/g/phpcfdi/rfc/master)](https://scrutinizer-ci.com/g/phpcfdi/rfc/)
+[![coverage](https://img.shields.io/scrutinizer/coverage/g/phpcfdi/rfc/master)](https://packagist.org/packages/phpcfdi/rfc)
+[![packagist](https://img.shields.io/packagist/dt/phpcfdi/rfc)](https://scrutinizer-ci.com/g/phpcfdi/rfc/code-structure/master/code-coverage/src/)
+
+> PHP library to deal with Mexican RFC
+
+---
+
+**[`phpcfdi/sat-catalogos-populate`](https://github.com/phpcfdi/sat-catalogos-populate/)**
+
+[![release](https://img.shields.io/github/release/phpcfdi/sat-catalogos-populate)](https://github.com/phpcfdi/sat-catalogos-populate/releases)
+[![license](https://img.shields.io/github/license/phpcfdi/sat-catalogos-populate)](https://github.com/phpcfdi/sat-catalogos-populate/blob/master/LICENSE)
+[![build](https://img.shields.io/travis/phpcfdi/sat-catalogos-populate/master)](https://travis-ci.org/phpcfdi/sat-catalogos-populate)
+[![quality](https://img.shields.io/scrutinizer/g/phpcfdi/sat-catalogos-populate/master)](https://scrutinizer-ci.com/g/phpcfdi/sat-catalogos-populate/)
+[![coverage](https://img.shields.io/scrutinizer/coverage/g/phpcfdi/sat-catalogos-populate/master)](https://packagist.org/packages/phpcfdi/sat-catalogos-populate)
+[![packagist](https://img.shields.io/packagist/dt/phpcfdi/sat-catalogos-populate)](https://scrutinizer-ci.com/g/phpcfdi/sat-catalogos-populate/code-structure/master/code-coverage/src/)
+
+> Herramienta para crear y actualizar los catálogos de SAT/CFDI en una base de datos SQLite3
 
 ---
 
@@ -117,16 +169,16 @@
 
 ---
 
-**[`phpcfdi/cfdi-sat-scraper`](https://github.com/phpcfdi/cfdi-sat-scraper/)**
+**[`phpcfdi/resources-sat-xml`](https://github.com/phpcfdi/resources-sat-xml/)**
 
-[![release](https://img.shields.io/github/release/phpcfdi/cfdi-sat-scraper)](https://github.com/phpcfdi/cfdi-sat-scraper/releases)
-[![license](https://img.shields.io/github/license/phpcfdi/cfdi-sat-scraper)](https://github.com/phpcfdi/cfdi-sat-scraper/blob/master/LICENSE)
-[![build](https://img.shields.io/travis/phpcfdi/cfdi-sat-scraper/master)](https://travis-ci.org/phpcfdi/cfdi-sat-scraper)
-[![quality](https://img.shields.io/scrutinizer/g/phpcfdi/cfdi-sat-scraper/master)](https://scrutinizer-ci.com/g/phpcfdi/cfdi-sat-scraper/)
-[![coverage](https://img.shields.io/scrutinizer/coverage/g/phpcfdi/cfdi-sat-scraper/master)](https://packagist.org/packages/phpcfdi/cfdi-sat-scraper)
-[![packagist](https://img.shields.io/packagist/dt/phpcfdi/cfdi-sat-scraper)](https://scrutinizer-ci.com/g/phpcfdi/cfdi-sat-scraper/code-structure/master/code-coverage/src/)
+[![release](https://img.shields.io/github/release/phpcfdi/resources-sat-xml)](https://github.com/phpcfdi/resources-sat-xml/releases)
+[![license](https://img.shields.io/github/license/phpcfdi/resources-sat-xml)](https://github.com/phpcfdi/resources-sat-xml/blob/master/LICENSE)
+[![build](https://img.shields.io/travis/phpcfdi/resources-sat-xml/master)](https://travis-ci.org/phpcfdi/resources-sat-xml)
+[![quality](https://img.shields.io/scrutinizer/g/phpcfdi/resources-sat-xml/master)](https://scrutinizer-ci.com/g/phpcfdi/resources-sat-xml/)
+[![coverage](https://img.shields.io/scrutinizer/coverage/g/phpcfdi/resources-sat-xml/master)](https://packagist.org/packages/phpcfdi/resources-sat-xml)
+[![packagist](https://img.shields.io/packagist/dt/phpcfdi/resources-sat-xml)](https://scrutinizer-ci.com/g/phpcfdi/resources-sat-xml/code-structure/master/code-coverage/src/)
 
-> PHP library to make web scraping to the SAT cfdi download page
+> Recursos de archivos XSD y XSLT que el SAT en México ofrece para trabajar con CFDI.
 
 ---
 
@@ -191,5 +243,5 @@
 [![coverage](https://img.shields.io/scrutinizer/coverage/g/phpcfdi/www.phpcfdi.com/master)](https://packagist.org/packages/phpcfdi/www.phpcfdi.com)
 [![packagist](https://img.shields.io/packagist/dt/phpcfdi/www.phpcfdi.com)](https://scrutinizer-ci.com/g/phpcfdi/www.phpcfdi.com/code-structure/master/code-coverage/src/)
 
-> static website of https://www.phpcfdi.com
+> static website of <https://www.phpcfdi.com>
 
