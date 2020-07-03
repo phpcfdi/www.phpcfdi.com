@@ -1,7 +1,7 @@
 site_name: 'phpCfdi'
 site_description: 'Organización que mantiene librerías de PHP para trabajar con CFDI y SAT'
 site_url: 'https://www.phpcfdi.com/'
-copyright: 'Copyright &copy; 2019 phpCfdi'
+copyright: 'Copyright &copy; 2019 - 2020 phpCfdi'
 
 nav:
     - "Información general":
@@ -19,6 +19,11 @@ nav:
         - "Expresiones de CFDI": 'librerias/cfdi-expresiones.md'
         - "Reportar un problema": 'librerias/contribuciones/reportar-problemas.md'
         - "Herramientas": 'librerias/herramientas.md'
+    - "Recursos":
+        - "Repositorios de recursos": 'recursos/index.md'
+        - "Suscripciones a recursos": 'recursos/suscripciones.md'
+        - "SAT XML": 'recursos/sat-xml.md'
+        - "Catálogos SAT": 'recursos/sat-catalogs.md'
     - "Proyectos":
         - "Proyectos de phpCfdi": 'proyectos/index.md'
     - "SAT":
@@ -28,6 +33,7 @@ nav:
             - "Validación de certificados": 'sat/problemas-conocidos/validacion-certificados.md'
             - "Múltiples nodos de complemento": 'sat/problemas-conocidos/multiples-complementos.md'
     - "Blog":
+        - "2020": 'blog/index.md'
         - "2019": 'blog/2019.md'
 
 theme:
@@ -39,7 +45,7 @@ theme:
         accent: 'Red'
     highlightjs: true
     language: 'es'
-    feature: {tabs: true}
+    features: {tabs: true, instant: true}
 
 markdown_extensions: # https://squidfunk.github.io/mkdocs-material/extensions/admonition/
     - meta
@@ -52,7 +58,8 @@ markdown_extensions: # https://squidfunk.github.io/mkdocs-material/extensions/ad
     - pymdownx.mark
     - pymdownx.betterem
     - pymdownx.emoji:
-          emoji_generator: !!python/name:pymdownx.emoji.to_svg
+        emoji_index: !!python/name:materialx.emoji.twemoji
+        emoji_generator: !!python/name:pymdownx.emoji.to_svg
     - pymdownx.tasklist
 
 plugins:
@@ -63,8 +70,8 @@ extra:
     search:
         language: 'es'
     social:
-        - {type: 'home', link: 'https://www.phpcfdi.com/'}
-        - {type: 'comments', link: 'https://discord.gg/aFGYXvX'}
-        - {type: 'github', link: 'https://github.com/phpcfdi'}
-        - {type: 'twitter', link: 'https://twitter.com/phpcfdi'}
-        - {type: 'envelope', link: 'mailto:contacto@phpcfdi.com'}
+        - {icon: 'fontawesome/solid/home', link: 'https://www.phpcfdi.com/'}
+        - {icon: 'fontawesome/brands/discord', link: 'https://discord.gg/aFGYXvX'}
+        - {icon: 'fontawesome/brands/github', link: 'https://github.com/phpcfdi'}
+        - {icon: 'fontawesome/brands/twitter', link: 'https://twitter.com/phpcfdi'}
+        - {icon: 'fontawesome/regular/envelope', link: 'mailto:contacto@phpcfdi.com'}

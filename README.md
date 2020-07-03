@@ -8,9 +8,10 @@ Este proyecto está hecho para crear el sitio de <https://www.phpcfdi.com/>.
 
 - [`markdownlint`](https://www.npmjs.com/package/markdownlint)
 - [`mkdocs`](https://www.mkdocs.org/)
-- [`mkdocs_material`](https://squidfunk.github.io/mkdocs-material/)
-- [`mkdocs_minify_plugin`](https://github.com/byrnereese/mkdocs-minify-plugin)
-- [`pymdown_extensions`](https://facelessuser.github.io/pymdown-extensions/)
+- [`mkdocs-material`](https://squidfunk.github.io/mkdocs-material/)
+- [`mkdocs-minify-plugin`](https://github.com/byrnereese/mkdocs-minify-plugin)
+- [`pymdown-extensions`](https://facelessuser.github.io/pymdown-extensions/)
+- [`markdown-include`](https://pypi.org/project/markdown-include/)
 
 ## Construcción del sitio
 
@@ -21,10 +22,38 @@ markdownlint --config .markdownlint.json .
 mkdocs build --clean --strict
 ```
 
+Para probar el sitio se puede ejecutar `mkdocs serve` que publicará el sitio en tiempo real en `http://127.0.0.1:8000/`.
+
+## Construir usando `docker`
+
+Construir la imagen `mkdocs-phpcfdi`
+
+```shell
+docker build docker/ -t mkdocs-phpcfdi
+```
+
+Construir el proyecto en `$PWD/site/`:
+
+```shell
+# ejecución de markdownlint
+docker run -it --rm --volume "$PWD:/tmp/project" --user "$(id -u):$(id -g)" mkdocs-phpcfdi \
+    markdownlint --config /tmp/project/.markdownlint.json /tmp/project/
+# ejecucion de mkdocs para contruir el proyecto
+docker run -it --rm --volume "$PWD:/tmp/project" --user "$(id -u):$(id -g)" mkdocs-phpcfdi \
+    mkdocs build -f /tmp/project/mkdocs.yml --clean --strict
+```
+
+Servir el proyecto en `http://127.0.0.1:8015/`:
+
+```shell
+docker run -it --rm --volume "$PWD:/tmp/project" --user "$(id -u):$(id -g)" --publish 127.0.0.1:8015:8000 mkdocs-phpcfdi \
+    mkdocs serve -a 0.0.0.0:8000 -f /tmp/project/mkdocs.yml
+```
+
 ## Publicación
 
 ```shell
-rsync -az --force --delete --cvs-exclude --exclude=.idea --exclude-from=.gitignore --progress site/ phpcfdi@phpcfdi.com:static-website
+rsync -az --force --delete --cvs-exclude --progress site/ phpcfdi@phpcfdi.com:static-website
 ```
 
 ## License / Licencia

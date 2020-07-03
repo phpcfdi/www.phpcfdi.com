@@ -1,5 +1,6 @@
 # Tareas pendientes
 
+- [ ] Ya no se puede utilizar la API de GitHub con usuario y contraseña
 - [ ] Evaluar incluirlo en un repositorio de integración contínua
 - [ ] Publicar en GitHub Pages en lugar de en un sitio de hospedaje
 - [ ] Incluir google analytics o alguna herramienta de análisis de visitas
