@@ -28,6 +28,7 @@ nav:
             - "Validación de certificados": 'sat/problemas-conocidos/validacion-certificados.md'
             - "Múltiples nodos de complemento": 'sat/problemas-conocidos/multiples-complementos.md'
     - "Blog":
+        - "2020": 'blog/2020.md'
         - "2019": 'blog/2019.md'
 
 theme:
