@@ -22,6 +22,8 @@ markdownlint --config .markdownlint.json .
 mkdocs build --clean --strict
 ```
 
+Para probar el sitio se puede ejecutar `mkdocs serve` que publicará el sitio en tiempo real en `http://127.0.0.1:8000/`.
+
 ## Publicación
 
 ```shell
