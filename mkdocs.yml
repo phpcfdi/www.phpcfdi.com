@@ -1,7 +1,7 @@
 site_name: 'phpCfdi'
 site_description: 'Organización que mantiene librerías de PHP para trabajar con CFDI y SAT'
 site_url: 'https://www.phpcfdi.com/'
-copyright: 'Copyright &copy; 2019 phpCfdi'
+copyright: 'Copyright &copy; 2019 - 2020 phpCfdi'
 
 nav:
     - "Información general":
