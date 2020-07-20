@@ -8,6 +8,8 @@ nav:
         - "Organización phpCfdi": 'general/index.md'
         - "Contacto": '/#contacto'
         - "Código de conducta": 'general/codigo-de-conducta.md'
+        - "Contribuciones": 'general/contribuciones.md'
+        - "Reportar un problema": 'general/reportar-problemas.md'
     - "Librerías":
         - "Librerías de phpCfdi": 'librerias/index.md'
         - "Listado de librerías": 'librerias/listado-librerias.md'
@@ -17,7 +19,6 @@ nav:
         - "Consulta de estado de CFDI": 'librerias/sat-estado-cfdi.md'
         - "Credenciales": 'librerias/credentials.md'
         - "Expresiones de CFDI": 'librerias/cfdi-expresiones.md'
-        - "Reportar un problema": 'librerias/contribuciones/reportar-problemas.md'
         - "Herramientas": 'librerias/herramientas.md'
     - "Recursos":
         - "Repositorios de recursos": 'recursos/index.md'
