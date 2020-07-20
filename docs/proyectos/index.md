@@ -21,13 +21,12 @@ nos permitan tener desarrolladores dedicados a nuestros proyectos.
 El SAT publica diferentes catálogos en diferentes formatos. Algunos en archivos XLS y otros en PDF.
 Además, estos catálogos cuentan con información vigente en un periodo de tiempo.
 Los catálogos no son simples e interpretarlos para después exponerlos como objetos
-tiene una gran dificultad. Por eso se piensa en contar con dos proyectos:
+tiene una gran dificultad.
 
-- `phpcfdi/sat-catalogos`: Librería que utiliza una base de datos para exponer la información
-  de catálogos reciente.
+Para generar los catálogos en un formato entendible (SQL) se ha implementado [Recursos / Catálogos SAT](../recursos/sat-catalogs.md).
 
-- `phpcfdi/sat-catalogos-populator`: Interpreta las últimas versiones de los catálogos y fabrica
-  una base de datos disponible para su descarga.
+Para poder utilizarlos se está trabajando en la librería [`phpcfdi/sat-catalogos`](https://github.com/phpcfdi/sat-catalogos),
+que expone estos catálogos como una librería de PHP.
 
 ## Ideas de nuevos proyectos
 
