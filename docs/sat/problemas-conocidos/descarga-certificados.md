@@ -7,6 +7,8 @@ Para poderlos descargar se contacta al servidor del SAT <https://rdc.sat.gob.mx/
 
 ## Conectividad por seguridad TLS
 
+**2019-07-18**: Al parecer el problema descrito a continuación está resuelto.
+
 En algún momento a inicios de 2020 el servicio web en <https://rdc.sat.gob.mx/> falla al establecer la comunicación.
 Después de depurar el problema, parece que el servidor web que responde en `rdc.sat.gob.mx` *delega* la conexión
 a alguno de al menos cuatro servidores: `CL-vordel01`, `CL-vordel02`, `CL-vordel03` y `CL-vordel04`. Y sucede que
