@@ -58,7 +58,7 @@ con las interfaces requeridas. Así que, por ejemplo si existiera un PAC llamado
 lo más probable es que exista un proyecto `phpcfdi/timbrado-tupacmx`, y que ese proyecto tenga
 dentro de sus dependencias a `tupacmx/web-services-client-php` (o algo así).
 
-### `phpcfd/finkok`
+### `phpcfdi/finkok`
 
 La librería [`phpcfdi/finkok`](https://github.com/phpcfdi/finkok) está hecha para trabajar con
 todos los servicios web ofrecidos por el integrador (antes PAC) [Finkok](https://www.finkok.com).
