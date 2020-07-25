@@ -1,0 +1,45 @@
+################################################   DOCUMENTATION   #####################################################
+# Order is important. The last matching pattern has the most precedence.
+# The folders are ordered as follows:
+
+# In each subsection folders are ordered first by depth, then alphabetically.
+# This should make it easy to add new rules without breaking existing ones.
+
+# More details are here: https://help.github.com/articles/about-codeowners/
+
+# Lines starting with '#' are comments.
+
+# The '*' pattern is global owners.
+# i.e. -> * @mt-user
+
+# Usernames or email can be addressed to be used as code owners
+# i.e. -> * email@phpcfdi.com
+
+# You can use teams on GitHub if they are configured on GitHub
+# i.e. -> * @phpCfdi/devteam
+
+# Each line is a pattern followed by one or more owners.
+# i.e. -> * @multiple @code @owners
+
+# You can match all files with a specific file extension
+# i.e. -> *.js @cfdi/frontend
+
+# In this example, the devteam owns any files in the /symfony/config/
+# directory at the root of the repository and any of its
+# subdirectories.
+# i.e. -> /config/ @phpCfdi/devteam
+
+# If there are many directories with the same start pattern
+# examples:
+# - /sat/cfdi
+# - /sat/cfdi_prod
+# - /sat/cfdis
+# and all the directories owns to the devteam, you could use
+# the pattern: /sat/cfdi*
+# in order to add all the listed directories and subdirectories.
+# i.e. -> /sat/cfdi* @phpCfdi/devteam
+
+####################################################   RULES   #########################################################
+/.github/*  @phpcfdi/core-mantainers
+/scripts/*  @phpcfdi/core-mantainers
+/docs/*  @phpcfdi/core-mantainers
