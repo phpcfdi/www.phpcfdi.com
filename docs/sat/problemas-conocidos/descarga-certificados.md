@@ -5,6 +5,21 @@ del nodo `tfd:TimbreFiscalDigital` porque no viene incluido en la estructura.
 
 Para poderlos descargar se contacta al servidor del SAT <https://rdc.sat.gob.mx/>.
 
+## Conectividad por certificados *locales* no encontrados
+
+En algún momento de agosto o septiembre de 2020 el servicio en `rdc.sat.gob.mx` que *delega* la conexión
+a alguno de al menos cuatro servidores: `CL-vordel01`, `CL-vordel02`, `CL-vordel03` y `CL-vordel04`, comenzó
+a fallar con el siguiente error: `SSL certificate problem: unable to get local issuer certificate`.
+
+Esto no ocurre con `CL-vordel02`, `CL-vordel03` ni `CL-vordel04`, lo que significa que solo está presente
+en la delegación a `CL-vordel01`.
+
+El error parece estar relacionado en cómo `CL-vordel01` está configurado, al ser cuatro servidores y (aparentemente)
+la asignación del servidor ocurre de forma aleatoria, entonces está fallando 25% de las veces.
+
+La mejor solución es reintentar la descarga del certificado, otra solución *podría* ser desactivar la seguridad
+de certificados pero **no se recomienda**.
+
 ## Conectividad por seguridad TLS
 
 **2019-07-18**: Al parecer el problema descrito a continuación está resuelto.
