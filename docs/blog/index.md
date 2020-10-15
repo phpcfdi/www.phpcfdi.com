@@ -1,5 +1,31 @@
 # Blog 2020
 
+## Octubre
+
+### Actualización mayor de `phpcfdi/sat-ws-descarga-masiva`
+
+Hemos trabajado en la actualización de la librería que consume el servicio de descarga masiva del SAT
+[`phpcfdi/sat-ws-descarga-masiva`](https://github.com/phpcfdi/sat-ws-descarga-masiva).
+
+Con esta actualización se rompe la compatibilidad mayor, por lo que se ha cambiado la versión de `0.3` a `0.4`. Esto
+no representa un problema si en tu `composer.json` tienes la dependencia como `"phpcfdi/sat-ws-descarga-masiva": "^0.3"`.
+
+Con este cambio nos acercamos cada vez más a la primera versión estable.
+Aún quedan dos nuevas características por solucionar.
+
+Algunas ligas importantes para actualizarte:
+
+- Pull request: <https://github.com/phpcfdi/sat-ws-descarga-masiva/pull/31>
+- Rama de trabajo: <https://github.com/eclipxe13/sat-ws-descarga-masiva/blob/v0.4/dev/docs/UPGRADE_0.3_0.4.md>
+- Nuevo README: <https://github.com/eclipxe13/sat-ws-descarga-masiva/blob/v0.4/dev/docs/README.md>
+
+### CCOSS Reconocimientos
+
+A [Carlos C Soto @eclipxe](https://twitter.com/eclipxoide) lo nominaron en la
+[Cumbre de Contribuidores de Open ource Software (CCOSS)](https://ccoss.org/awards/)
+por sus contribuciones a este proyecto y por ayudar a otras personas a contribuir
+a proyectos de software libre. *Felicidades @eclipxe*.
+
 ## Julio
 
 ### Actualizando el sitio
