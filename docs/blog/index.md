@@ -1,5 +1,14 @@
 # Blog 2020
 
+## Octubre
+
+### CCOSS Reconocimientos
+
+A [Carlos C Soto @eclipxe](https://twitter.com/eclipxoide) lo nominaron en la
+[Cumbre de Contribuidores de Open ource Software (CCOSS)](https://ccoss.org/awards/)
+por sus contribuciones a este proyecto y por ayudar a otras personas a contribuir
+a proyectos de software libre. *Felicidades @eclipxe*.
+
 ## Julio
 
 ### Actualizando el sitio
