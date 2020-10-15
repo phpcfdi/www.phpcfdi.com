@@ -8,7 +8,7 @@ Nosotros nos esforzamos por crear código de calidad, tu repórtanos lo que enco
 Algunas veces la librería que te está dando el problema ya tiene tu problema documentado,
 o te puede orientar en el uso correcto de los componentes.
 
-## Repoducir el problema
+## Reproducir el problema
 
 Una forma de hacerlo es creando un script que demuestre el caso, de esta manera podremos ejecutar,
 depurar y crear pruebas que demuestren el problema y su solución.
