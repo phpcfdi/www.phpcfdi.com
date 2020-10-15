@@ -36,18 +36,19 @@ Construir el proyecto en `$PWD/site/`:
 
 ```shell
 # ejecución de markdownlint
-docker run -it --rm --volume "$PWD:/tmp/project" --user "$(id -u):$(id -g)" mkdocs-phpcfdi \
-    markdownlint --config /tmp/project/.markdownlint.json /tmp/project/
+docker run -it --rm --volume "$PWD:/tmp/project" --workdir /tmp/project --user "$(id -u):$(id -g)" mkdocs-phpcfdi \
+    markdownlint .
 # ejecucion de mkdocs para contruir el proyecto
-docker run -it --rm --volume "$PWD:/tmp/project" --user "$(id -u):$(id -g)" mkdocs-phpcfdi \
-    mkdocs build -f /tmp/project/mkdocs.yml --clean --strict
+docker run -it --rm --volume "$PWD:/tmp/project" --workdir /tmp/project --user "$(id -u):$(id -g)" mkdocs-phpcfdi \
+    mkdocs build --clean --strict
 ```
 
 Servir el proyecto en `http://127.0.0.1:8015/`:
 
 ```shell
-docker run -it --rm --volume "$PWD:/tmp/project" --user "$(id -u):$(id -g)" --publish 127.0.0.1:8015:8000 mkdocs-phpcfdi \
-    mkdocs serve -a 0.0.0.0:8000 -f /tmp/project/mkdocs.yml
+docker run -it --rm --volume "$PWD:/tmp/project" --workdir /tmp/project/ \
+    --user "$(id -u):$(id -g)" --publish 127.0.0.1:8015:8000 mkdocs-phpcfdi \
+    mkdocs serve -a 0.0.0.0:8000
 ```
 
 ## Publicación
