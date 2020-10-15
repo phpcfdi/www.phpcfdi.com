@@ -46,7 +46,10 @@ theme:
         accent: 'Red'
     highlightjs: true
     language: 'es'
-    features: {tabs: true, instant: true}
+    features:
+        - navigation.tabs
+        - navigation.expand
+        - navigation.instant
 
 markdown_extensions: # https://squidfunk.github.io/mkdocs-material/extensions/admonition/
     - meta
@@ -68,8 +71,6 @@ plugins:
     - minify: {minify_html: true}
 
 extra:
-    search:
-        language: 'es'
     social:
         - {icon: 'fontawesome/solid/home', link: 'https://www.phpcfdi.com/'}
         - {icon: 'fontawesome/brands/discord', link: 'https://discord.gg/aFGYXvX'}
